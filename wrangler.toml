@@ -1,0 +1,10 @@
+name = "brainsait-website"
+compatibility_date = "2024-09-02"
+
+[env.production]
+name = "brainsait-website"
+route = "brainsait.com/*"
+
+[[env.production.routes]]
+pattern = "brainsait.com/*"
+custom_domain = true
