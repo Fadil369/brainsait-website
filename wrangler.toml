@@ -1,8 +1,8 @@
-name = "brainsait-website"
+name = "brainsait-com-64k"
 compatibility_date = "2024-09-02"
 
 [env.production]
-name = "brainsait-website"
+name = "brainsait-com-64k"
 route = "brainsait.com/*"
 
 [[env.production.routes]]
