@@ -22,7 +22,7 @@ echo "🌐 Deploying to Cloudflare Pages..."
 # Option 1: Direct deployment (if wrangler is configured)
 if command -v wrangler &> /dev/null; then
     echo "Using Wrangler CLI for deployment..."
-    wrangler pages deploy public --project-name brainsait-website --compatibility-date 2024-09-02
+    wrangler pages deploy out --project-name brainsait-website
 else
     echo "⚠️  Wrangler CLI not found. Please install with: npm install -g wrangler"
     echo "📋 Manual deployment steps:"
