@@ -1,13 +1,52 @@
 {
   "name": "brainsait-website",
-  "version": "1.0.0",
-  "description": "BrainSait - Advanced AI Server Platform Website",
+  "version": "2.0.0",
+  "description": "BrainSAIT - AI-Powered Healthcare Assistant Platform",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'Static site - no build needed'",
-    "deploy": "wrangler pages deploy public --project-name brainsait-website"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build",
+    "deploy": "npm run build && wrangler pages deploy out --project-name brainsait-website"
   },
-  "keywords": ["AI", "server", "platform", "agents", "MCP"],
-  "author": "BrainSait",
-  "license": "MIT"
+  "keywords": [
+    "AI",
+    "healthcare",
+    "platform",
+    "agents",
+    "MCP",
+    "FHIR",
+    "NPHIES",
+    "bilingual",
+    "Arabic",
+    "English",
+    "telemedicine",
+    "medical-ai",
+    "hipaa-compliant"
+  ],
+  "author": "BrainSAIT LTD",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^15.5.2",
+    "framer-motion": "^12.23.12",
+    "i18next": "^25.4.2",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "i18next-http-backend": "^3.0.2",
+    "lucide-react": "^0.542.0",
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-i18next": "^15.7.3",
+    "rtl-css-js": "^1.16.1",
+    "styled-components": "^6.1.19",
+    "typescript": "^5.9.2"
+  }
 }
