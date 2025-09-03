@@ -1,0 +1,111 @@
+{
+  "site": {
+    "title": "BrainSAIT | AI-Powered Healthcare Assistant Platform",
+    "description": "Revolutionary AI-powered healthcare platform with intelligent agents, FHIR/NPHIES integration, and comprehensive medical workflow automation",
+    "tagline": "Solutions, Automated. Integrated."
+  },
+  "nav": {
+    "home": "Home",
+    "platform": "Platform",
+    "dashboard": "Dashboard",
+    "healthcare": "Healthcare",
+    "ai_assistant": "AI Assistant",
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact",
+    "api": "API"
+  },
+  "hero": {
+    "subtitle": "Advanced AI Healthcare Platform",
+    "title": "Revolutionary AI-Powered Healthcare Infrastructure",
+    "description": "BrainSAIT delivers cutting-edge AI healthcare platform with intelligent agents, FHIR/NPHIES integration, patient engagement tools, and automated clinical workflows for the next generation of medical solutions.",
+    "cta_dashboard": "Launch Healthcare Dashboard",
+    "cta_docs": "Explore Medical API"
+  },
+  "healthcare": {
+    "title": "AI Healthcare Assistant",
+    "subtitle": "Comprehensive medical AI platform for better patient outcomes and clinical efficiency",
+    "patient_engagement": {
+      "title": "Patient Engagement",
+      "description": "Conversational AI, symptom checker, appointment booking, and patient education modules",
+      "features": {
+        "ai_chat": "AI Medical Chat",
+        "symptom_checker": "Symptom Checker",
+        "appointments": "Smart Scheduling",
+        "education": "Patient Education"
+      }
+    },
+    "clinical_workflow": {
+      "title": "Clinical Workflow Support",
+      "description": "EHR integration, voice-to-text, SOAP notes, and clinical decision support",
+      "features": {
+        "ehr_integration": "FHIR/NPHIES Integration",
+        "voice_text": "Voice-to-Text",
+        "soap_notes": "SOAP Summarization",
+        "decision_support": "Clinical Decision Support"
+      }
+    },
+    "compliance": {
+      "title": "Data & Compliance",
+      "description": "HIPAA-compliant encryption, audit logs, and role-based access control",
+      "features": {
+        "encryption": "End-to-End Encryption",
+        "audit_logs": "Comprehensive Audit Logs",
+        "rbac": "Role-Based Access Control",
+        "analytics": "Healthcare Analytics"
+      }
+    }
+  },
+  "features": {
+    "ai_diagnosis": {
+      "title": "AI Medical Diagnosis",
+      "description": "Machine learning-powered diagnostic assistance, medical imaging analysis, and predictive health monitoring for healthcare professionals.",
+      "stats": {
+        "accuracy": "95% Accuracy",
+        "conditions": "50+ Conditions"
+      }
+    },
+    "smart_pharma": {
+      "title": "Smart Pharma",
+      "description": "Drug discovery acceleration, personalized medicine recommendations, and automated pharmaceutical supply chain management.",
+      "stats": {
+        "rd_speed": "10x Faster R&D",
+        "traceability": "100% Traceability"
+      }
+    },
+    "telemedicine": {
+      "title": "Telemedicine Platform",
+      "description": "Secure virtual consultations, remote patient monitoring, and AI-powered health assessments for accessible healthcare delivery.",
+      "stats": {
+        "availability": "24/7 Availability",
+        "compliance": "HIPAA Compliant"
+      }
+    },
+    "genomic": {
+      "title": "Genomic Analytics",
+      "description": "Advanced genomic data processing, personalized treatment recommendations, and genetic risk assessment using cutting-edge AI algorithms.",
+      "stats": {
+        "genomes": "1M+ Genomes",
+        "processing": "Real-time Processing"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 BrainSAIT LTD. AI-Powered Healthcare Platform. All rights reserved.",
+    "tagline": "Solutions, Automated. Integrated.",
+    "links": {
+      "platform": "Platform",
+      "api_docs": "API Docs",
+      "monitoring": "Monitoring",
+      "github": "GitHub"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "learn_more": "Learn More",
+    "get_started": "Get Started",
+    "contact_us": "Contact Us",
+    "book_demo": "Book Demo",
+    "try_now": "Try Now"
+  }
+}
